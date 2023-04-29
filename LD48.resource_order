@@ -18,6 +18,15 @@
   ],
   "ResourceOrderSettings": [
     {"name":"rmMain","order":1,"path":"rooms/rmMain/rmMain.yy",},
+    {"name":"objBite2","order":4,"path":"objects/objBite2/objBite2.yy",},
+    {"name":"sprPlayer","order":1,"path":"sprites/sprPlayer/sprPlayer.yy",},
+    {"name":"sprBite2","order":3,"path":"sprites/sprBite2/sprBite2.yy",},
+    {"name":"objSkeleton","order":5,"path":"objects/objSkeleton/objSkeleton.yy",},
+    {"name":"sprBiteHalf","order":4,"path":"sprites/sprBiteHalf/sprBiteHalf.yy",},
+    {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"sprBite","order":2,"path":"sprites/sprBite/sprBite.yy",},
+    {"name":"objBite","order":3,"path":"objects/objBite/objBite.yy",},
     {"name":"objInit","order":1,"path":"objects/objInit/objInit.yy",},
+    {"name":"sprSkeleton","order":5,"path":"sprites/sprSkeleton/sprSkeleton.yy",},
   ],
 }

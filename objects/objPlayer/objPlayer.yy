@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objTree",
-  "eventList": [],
+  "name": "objPlayer",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "sprTree",
-    "path": "sprites/sprTree/sprTree.yy",
+    "name": "sprPlayer",
+    "path": "sprites/sprPlayer/sprPlayer.yy",
   },
   "spriteMaskId": null,
   "visible": true,

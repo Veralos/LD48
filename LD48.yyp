@@ -36,8 +36,17 @@
   "resources": [
     {"id":{"name":"sprTree","path":"sprites/sprTree/sprTree.yy",},},
     {"id":{"name":"rmMain","path":"rooms/rmMain/rmMain.yy",},},
+    {"id":{"name":"objBite2","path":"objects/objBite2/objBite2.yy",},},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
+    {"id":{"name":"sprBite2","path":"sprites/sprBite2/sprBite2.yy",},},
+    {"id":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},},
     {"id":{"name":"objTree","path":"objects/objTree/objTree.yy",},},
+    {"id":{"name":"sprBiteHalf","path":"sprites/sprBiteHalf/sprBiteHalf.yy",},},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"sprBite","path":"sprites/sprBite/sprBite.yy",},},
+    {"id":{"name":"objBite","path":"objects/objBite/objBite.yy",},},
     {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
+    {"id":{"name":"sprSkeleton","path":"sprites/sprSkeleton/sprSkeleton.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
   ],
   "RoomOrderNodes": [
