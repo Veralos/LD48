@@ -1,12 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objSoul",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objSoul","path":"objects/objSoul/objSoul.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,13 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
-  },
-  "spriteMaskId": {
-    "name": "sprBite",
-    "path": "sprites/sprBite/sprBite.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }

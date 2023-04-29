@@ -9,3 +9,5 @@ TIMER_MAX = 60;
 timer = 0;
 spd_x = 0;
 spd_y = 0;
+
+dead = false;
