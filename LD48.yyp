@@ -57,6 +57,7 @@
     {"id":{"name":"sprBite2","path":"sprites/sprBite2/sprBite2.yy",},},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
     {"id":{"name":"objTree","path":"objects/objTree/objTree.yy",},},
+    {"id":{"name":"sndRevive","path":"sounds/sndRevive/sndRevive.yy",},},
     {"id":{"name":"sprSatyr","path":"sprites/sprSatyr/sprSatyr.yy",},},
     {"id":{"name":"objPool","path":"objects/objPool/objPool.yy",},},
     {"id":{"name":"sprCyclopsDead","path":"sprites/sprCyclopsDead/sprCyclopsDead.yy",},},

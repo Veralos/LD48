@@ -38,6 +38,7 @@
     {"name":"sprPool","order":11,"path":"sprites/sprPool/sprPool.yy",},
     {"name":"sprBite2","order":3,"path":"sprites/sprBite2/sprBite2.yy",},
     {"name":"objEnemy","order":5,"path":"objects/objEnemy/objEnemy.yy",},
+    {"name":"sndRevive","order":10,"path":"sounds/sndRevive/sndRevive.yy",},
     {"name":"sprSatyr","order":8,"path":"sprites/sprSatyr/sprSatyr.yy",},
     {"name":"objPool","order":12,"path":"objects/objPool/objPool.yy",},
     {"name":"sprCyclopsDead","order":18,"path":"sprites/sprCyclopsDead/sprCyclopsDead.yy",},

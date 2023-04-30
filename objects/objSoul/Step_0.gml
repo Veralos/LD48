@@ -51,6 +51,8 @@ else {
 			enemy.start_y = body.start_y;
 			instance_destroy(body);
 			instance_destroy();
+			
+			scr_play_sound(sndRevive);
 		}
 	}
 }
