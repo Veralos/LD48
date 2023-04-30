@@ -78,6 +78,8 @@ if (!instance_exists(objSoulCollector)) {
 			
 			var bite = instance_create_layer(x +ldx, y + ldy, layer, objBite2);
 			bite.damage = 10 + level;
+			
+			scr_play_sound(sndBite);
 		}
 		
 		rebite = MAX_REBITE;
