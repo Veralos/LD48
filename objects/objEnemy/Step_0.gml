@@ -25,7 +25,7 @@ else {
 		
 			if (attack_cd <= 0 && dist < pref_dist * 2) {
 				attack = 1;
-				timer = 30;
+				timer = 45;
 				
 				spd_x = 0;
 				spd_y = 0;
