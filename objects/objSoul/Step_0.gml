@@ -46,7 +46,9 @@ else {
 		}
 		
 		if (charge > 1 && !place_meeting(body.x, body.y, objSkeleton)) {
-			instance_create_layer(body.x, body.y, layer, object);
+			var enemy = instance_create_layer(body.x, body.y, layer, object);
+			enemy.start_x = body.start_x;
+			enemy.start_y = body.start_y;
 			instance_destroy(body);
 			instance_destroy();
 		}

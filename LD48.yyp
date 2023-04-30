@@ -45,6 +45,7 @@
     {"id":{"name":"objSoul","path":"objects/objSoul/objSoul.yy",},},
     {"id":{"name":"sprSkeletonDead","path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},},
     {"id":{"name":"sprBiteHalf","path":"sprites/sprBiteHalf/sprBiteHalf.yy",},},
+    {"id":{"name":"objView","path":"objects/objView/objView.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBite","path":"sprites/sprBite/sprBite.yy",},},
     {"id":{"name":"objBite","path":"objects/objBite/objBite.yy",},},

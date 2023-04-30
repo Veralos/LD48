@@ -7,5 +7,7 @@ soul.sprite_index = sprite_index;
 dead.sprite_index = sprSkeletonDead;
 soul.body = dead;
 soul.object = objSkeleton;
+dead.start_x = start_x;
+dead.start_y = start_y;
 
 instance_destroy();
