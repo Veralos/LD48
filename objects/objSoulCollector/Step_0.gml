@@ -15,6 +15,8 @@ if (!ds_list_empty(objPlayer.souls)) {
 		final_xp = base_xp * multiplier;
 		
 			timer = MAX_TIMER;
+			
+		scr_play_sound(sndCount);
 	}
 }
 else {
@@ -29,6 +31,8 @@ else {
 			objPlayer.level++;
 			objPlayer.xp -= req_xp;
 			objPlayer.max_stamina = objPlayer.BASE_MAX_STAMINA * (1 + 0.1 * objPlayer.level);
+			
+			scr_play_sound(sndLevelUp);
 		}
 	}
 	else {

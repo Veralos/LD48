@@ -22,6 +22,7 @@
     {"name":"objEntrance","order":11,"path":"objects/objEntrance/objEntrance.yy",},
     {"name":"objCentaur","order":20,"path":"objects/objCentaur/objCentaur.yy",},
     {"name":"objDead","order":6,"path":"objects/objDead/objDead.yy",},
+    {"name":"sndLevelUp","order":7,"path":"sounds/sndLevelUp/sndLevelUp.yy",},
     {"name":"sprCyclops","order":16,"path":"sprites/sprCyclops/sprCyclops.yy",},
     {"name":"rmMain","order":1,"path":"rooms/rmMain/rmMain.yy",},
     {"name":"objBite2","order":4,"path":"objects/objBite2/objBite2.yy",},
@@ -65,6 +66,7 @@
     {"name":"objInit","order":1,"path":"objects/objInit/objInit.yy",},
     {"name":"objDamageText","order":14,"path":"objects/objDamageText/objDamageText.yy",},
     {"name":"sndReturn","order":4,"path":"sounds/sndReturn/sndReturn.yy",},
+    {"name":"sndCount","order":6,"path":"sounds/sndCount/sndCount.yy",},
     {"name":"sndDie","order":3,"path":"sounds/sndDie/sndDie.yy",},
   ],
 }
