@@ -28,6 +28,7 @@ else {
 		if (objPlayer.xp >= req_xp) {
 			objPlayer.level++;
 			objPlayer.xp -= req_xp;
+			objPlayer.max_stamina = objPlayer.BASE_MAX_STAMINA * (1 + 0.1 * objPlayer.level);
 		}
 	}
 	else {

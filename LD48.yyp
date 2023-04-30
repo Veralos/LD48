@@ -61,6 +61,7 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBite","path":"sprites/sprBite/sprBite.yy",},},
     {"id":{"name":"objBite","path":"objects/objBite/objBite.yy",},},
+    {"id":{"name":"objHud","path":"objects/objHud/objHud.yy",},},
     {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
     {"id":{"name":"sprSkeleton","path":"sprites/sprSkeleton/sprSkeleton.yy",},},
     {"id":{"name":"objDamageText","path":"objects/objDamageText/objDamageText.yy",},},
