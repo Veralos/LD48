@@ -9,20 +9,22 @@ var down_held = keyboard_check(ord("S"));
 var move_x = right_held - left_held;
 var move_y = down_held - up_held;
 
-if (place_free(x + move_x, y)) {
-	x += move_x;
-}
-if (place_free(x, y + move_y)) {
-	y += move_y;
-}
+if (!instance_exists(objSoulCollector)) {
+	if (place_free(x + move_x, y)) {
+		x += move_x;
+	}
+	if (place_free(x, y + move_y)) {
+		y += move_y;
+	}
 
-var dir = point_direction(x, y, mouse_x, mouse_y);
+	var dir = point_direction(x, y, mouse_x, mouse_y);
 
-var ldx = lengthdir_x(32, dir);
-var ldy = lengthdir_y(32, dir);
+	var ldx = lengthdir_x(32, dir);
+	var ldy = lengthdir_y(32, dir);
 
-if (mouse_check_button_pressed(mb_left)) {
-	instance_create_layer(x +ldx, y + ldy, layer, objBite2);
+	if (mouse_check_button_pressed(mb_left)) {
+		instance_create_layer(x +ldx, y + ldy, layer, objBite2);
+	}
 }
 
 spin += 2;

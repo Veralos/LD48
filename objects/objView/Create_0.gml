@@ -1,12 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-view_x = 0;
-view_y = 0;
+view_x = objPlayer.x div 256 * 256;
+view_y = objPlayer.y div 240 * 240;
 old_view_x = view_x;
 old_view_y = view_y;
 
 shake = 0;
+
+set_spawn = true;
 
 with (objSkeleton) {
 	start_x = x;

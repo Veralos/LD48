@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 view_x = objPlayer.x div 256 * 256;
-view_y = objPlayer.y div 240 * 240;
+view_y = objPlayer.y div 256 * 256;
 
 var offset_x = 0;
 var offset_y = 0;
