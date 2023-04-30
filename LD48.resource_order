@@ -38,6 +38,7 @@
     {"name":"sprSatyr","order":8,"path":"sprites/sprSatyr/sprSatyr.yy",},
     {"name":"objPool","order":12,"path":"objects/objPool/objPool.yy",},
     {"name":"sprCyclopsDead","order":18,"path":"sprites/sprCyclopsDead/sprCyclopsDead.yy",},
+    {"name":"sprPlayerWalk","order":21,"path":"sprites/sprPlayerWalk/sprPlayerWalk.yy",},
     {"name":"objSoul","order":7,"path":"objects/objSoul/objSoul.yy",},
     {"name":"sprArrow","order":15,"path":"sprites/sprArrow/sprArrow.yy",},
     {"name":"sprSatyrDead","order":7,"path":"sprites/sprSatyrDead/sprSatyrDead.yy",},

@@ -22,7 +22,11 @@ if (move_x != 0 && move_y != 0) {
 	spd_y /= 1.5;
 }
 
+sprite_index = sprPlayerWalk;
+
 if (stamina > 0 && run_pressed) {
+	sprite_index = sprPlayer;
+	
 	spd_x *= 2;
 	spd_y *= 2;
 	stamina--;
