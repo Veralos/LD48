@@ -24,7 +24,7 @@ draw_y = vy + vh / 2 - 32;
 
 draw_text(vx + vw / 2, draw_y, base_xp);
 draw_text(vx + vw / 2 + 64, draw_y, "X " + string(multiplier));
-draw_text(vx + vw / 2, draw_y + 32, final_xp);
+draw_text(vx + vw / 2, draw_y + 32, floor(final_xp));
 
 var req_xp = 500 + 50 * objPlayer.level;
 		
@@ -33,7 +33,7 @@ if (objPlayer.xp >= req_xp) {
 	objPlayer.xp -= req_xp;
 }
 
-draw_text(vx + vw / 2, draw_y + 64, "" + string(objPlayer.xp) + " / " + string(req_xp));
+draw_text(vx + vw / 2, draw_y + 64, "" + string(floor(objPlayer.xp)) + " / " + string(req_xp));
 draw_text(vx + vw / 2, draw_y + 96, "Level " + string(objPlayer.level));
 
 if (done) {

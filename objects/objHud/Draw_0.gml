@@ -24,9 +24,11 @@ draw_sprite_ext(sprPointer, 1,
 	1, 1, dir, c_white, 1);
 }
 
-if (objPlayer.stamina < objPlayer.max_stamina) {
-	var stamina_y = objPlayer.y + 20;
+if (!instance_exists(objSoulCollector)) {
+	if (objPlayer.stamina < objPlayer.max_stamina) {
+		var stamina_y = objPlayer.y + 20;
 
-	draw_rectangle(objPlayer.x - objPlayer.stamina / 10, stamina_y, objPlayer.x + objPlayer.stamina / 10, stamina_y + 4, false);
-	draw_rectangle(objPlayer.x - objPlayer.max_stamina / 10, stamina_y, objPlayer.x + objPlayer.max_stamina / 10, stamina_y + 4, true);
+		draw_rectangle(objPlayer.x - objPlayer.stamina / 10, stamina_y, objPlayer.x + objPlayer.stamina / 10, stamina_y + 4, false);
+		draw_rectangle(objPlayer.x - objPlayer.max_stamina / 10, stamina_y, objPlayer.x + objPlayer.max_stamina / 10, stamina_y + 4, true);
+	}
 }
