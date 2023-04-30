@@ -7,4 +7,6 @@ if (other.can_damage) {
 	hp -= other.damage;
 	objView.shake = 5;
 	flash = 5;
+	
+	scr_play_sound(sndHit);
 }

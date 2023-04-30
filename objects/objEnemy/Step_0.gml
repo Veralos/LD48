@@ -84,6 +84,8 @@ if (hp <= 0) {
 	soul.XP = XP;
 	dead.start_x = start_x;
 	dead.start_y = start_y;
+	
+	scr_play_sound(sndDie);
 
 	instance_destroy();
 }

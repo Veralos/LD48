@@ -78,6 +78,7 @@
     {"id":{"name":"sprCentaur","path":"sprites/sprCentaur/sprCentaur.yy",},},
     {"id":{"name":"objView","path":"objects/objView/objView.yy",},},
     {"id":{"name":"sprCentaurDead","path":"sprites/sprCentaurDead/sprCentaurDead.yy",},},
+    {"id":{"name":"sndHit","path":"sounds/sndHit/sndHit.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBite","path":"sprites/sprBite/sprBite.yy",},},
     {"id":{"name":"objBite","path":"objects/objBite/objBite.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"sprSkeleton","path":"sprites/sprSkeleton/sprSkeleton.yy",},},
     {"id":{"name":"objDamageText","path":"objects/objDamageText/objDamageText.yy",},},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
+    {"id":{"name":"sndDie","path":"sounds/sndDie/sndDie.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
   ],
   "RoomOrderNodes": [
