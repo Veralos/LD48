@@ -12,3 +12,12 @@ draw_rectangle(vx + 2, vy + 2, vx + 2 + objPlayer.stamina, vy + 16 - 2, false);
 
 draw_set_color(c_white);
 draw_rectangle(vx + 2, vy + 2, vx + 2 + objPlayer.max_stamina, vy + 16 - 2, true);
+
+var dir = point_direction(objPlayer.x, objPlayer.y, objPool.x, objPool.y);
+var dist = point_distance(objPlayer.x, objPlayer.y, objPool.x, objPool.y);
+
+if (dist > 96) {
+draw_sprite_ext(sprPointer, 1,
+	objPlayer.x + lengthdir_x(64, dir), objPlayer.y + lengthdir_y(64, dir),
+	1, 1, dir, c_white, 1);
+}

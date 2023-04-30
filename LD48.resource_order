@@ -45,6 +45,7 @@
     {"name":"sprPlayerWalk","order":21,"path":"sprites/sprPlayerWalk/sprPlayerWalk.yy",},
     {"name":"objSoul","order":7,"path":"objects/objSoul/objSoul.yy",},
     {"name":"sprArrow","order":15,"path":"sprites/sprArrow/sprArrow.yy",},
+    {"name":"sprPointer","order":23,"path":"sprites/sprPointer/sprPointer.yy",},
     {"name":"sndDash","order":9,"path":"sounds/sndDash/sndDash.yy",},
     {"name":"sndGet","order":1,"path":"sounds/sndGet/sndGet.yy",},
     {"name":"sndDamage","order":5,"path":"sounds/sndDamage/sndDamage.yy",},

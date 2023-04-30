@@ -64,6 +64,7 @@
     {"id":{"name":"sprPlayerWalk","path":"sprites/sprPlayerWalk/sprPlayerWalk.yy",},},
     {"id":{"name":"objSoul","path":"objects/objSoul/objSoul.yy",},},
     {"id":{"name":"sprArrow","path":"sprites/sprArrow/sprArrow.yy",},},
+    {"id":{"name":"sprPointer","path":"sprites/sprPointer/sprPointer.yy",},},
     {"id":{"name":"sndDash","path":"sounds/sndDash/sndDash.yy",},},
     {"id":{"name":"scrPlaySound","path":"scripts/scrPlaySound/scrPlaySound.yy",},},
     {"id":{"name":"sndGet","path":"sounds/sndGet/sndGet.yy",},},
