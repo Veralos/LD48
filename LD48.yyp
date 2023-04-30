@@ -62,6 +62,8 @@
     {"id":{"name":"objBite","path":"objects/objBite/objBite.yy",},},
     {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
     {"id":{"name":"sprSkeleton","path":"sprites/sprSkeleton/sprSkeleton.yy",},},
+    {"id":{"name":"objDamageText","path":"objects/objDamageText/objDamageText.yy",},},
+    {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
   ],
   "RoomOrderNodes": [

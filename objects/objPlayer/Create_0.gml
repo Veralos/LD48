@@ -5,3 +5,6 @@ souls = ds_list_create();
 spin = 0;
 
 iframe = 0;
+
+level = 0;
+xp = 0;

@@ -42,5 +42,6 @@
     {"name":"objBite","order":3,"path":"objects/objBite/objBite.yy",},
     {"name":"objInit","order":1,"path":"objects/objInit/objInit.yy",},
     {"name":"sprSkeleton","order":5,"path":"sprites/sprSkeleton/sprSkeleton.yy",},
+    {"name":"objDamageText","order":14,"path":"objects/objDamageText/objDamageText.yy",},
   ],
 }

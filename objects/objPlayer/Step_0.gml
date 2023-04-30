@@ -23,7 +23,8 @@ if (!instance_exists(objSoulCollector)) {
 	var ldy = lengthdir_y(32, dir);
 
 	if (mouse_check_button_pressed(mb_left)) {
-		instance_create_layer(x +ldx, y + ldy, layer, objBite2);
+		var bite = instance_create_layer(x +ldx, y + ldy, layer, objBite2);
+		bite.damage = 10 + level;
 	}
 }
 
