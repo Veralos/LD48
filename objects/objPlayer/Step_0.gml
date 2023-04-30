@@ -44,6 +44,14 @@ if (stamina > 0 && run_pressed) {
 var spd = point_distance(0, 0, spd_x, spd_y);
 image_index += spd / 16;
 
+if (sprite_index = sprPlayer) {
+	step += spd / 16;
+	if (step >= 2) {
+		scr_play_sound(sndRun);
+		step = 0;
+	}
+}
+
 if (spd == 0) {
 	image_index = 0;
 }

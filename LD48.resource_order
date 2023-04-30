@@ -63,6 +63,7 @@
     {"name":"sprCentaurDead","order":20,"path":"sprites/sprCentaurDead/sprCentaurDead.yy",},
     {"name":"sndHit","order":2,"path":"sounds/sndHit/sndHit.yy",},
     {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"sndRun","order":11,"path":"sounds/sndRun/sndRun.yy",},
     {"name":"sprBite","order":2,"path":"sprites/sprBite/sprBite.yy",},
     {"name":"objBite","order":3,"path":"objects/objBite/objBite.yy",},
     {"name":"objHud","order":16,"path":"objects/objHud/objHud.yy",},

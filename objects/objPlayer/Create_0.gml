@@ -13,6 +13,8 @@ iframe = 0;
 level = 0;
 xp = 0;
 
+step = 0;
+
 BASE_MAX_STAMINA = 60;
 max_stamina = BASE_MAX_STAMINA;
 stamina = max_stamina;
