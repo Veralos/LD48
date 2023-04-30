@@ -9,6 +9,7 @@ XP = 500;
 dead_sprite = sprSatyrBowDead;
 spd = 1;
 pref_dist = 96;
+attack_sound = sndShoot;
 
 function perform_attack() {
 	//spd_x = lengthdir_x(3, dir);

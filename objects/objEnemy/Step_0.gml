@@ -50,6 +50,8 @@ else {
 			
 			dir = point_direction(x, y, objPlayer.x, objPlayer.y);
 			
+			scr_play_sound(attack_sound);
+			
 			perform_attack();
 		}
 		else {

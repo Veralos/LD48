@@ -14,6 +14,8 @@ MAX_HP = 20;
 
 dead_sprite = sprSkeletonDead;
 
+attack_sound = sndDash;
+
 pref_dist = 30;
 
 start_x = x;

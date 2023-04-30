@@ -9,6 +9,7 @@ XP = 1000;
 dead_sprite = sprCyclopsDead;
 spd = 0.5;
 pref_dist = 96;
+attack_sound = sndShoot;
 
 function perform_attack() {
 	//spd_x = lengthdir_x(3, dir);
