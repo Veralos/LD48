@@ -50,6 +50,7 @@
     {"name":"sndDamage","order":5,"path":"sounds/sndDamage/sndDamage.yy",},
     {"name":"sprSatyrDead","order":7,"path":"sprites/sprSatyrDead/sprSatyrDead.yy",},
     {"name":"sprSatyrBow","order":13,"path":"sprites/sprSatyrBow/sprSatyrBow.yy",},
+    {"name":"objSoulCounter","order":21,"path":"objects/objSoulCounter/objSoulCounter.yy",},
     {"name":"objSkeleton","order":15,"path":"objects/objSkeleton/objSkeleton.yy",},
     {"name":"objSoulCollector","order":13,"path":"objects/objSoulCollector/objSoulCollector.yy",},
     {"name":"sprSkeletonDead","order":1,"path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},

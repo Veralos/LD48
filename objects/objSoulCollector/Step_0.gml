@@ -14,7 +14,9 @@ if (!ds_list_empty(objPlayer.souls)) {
 		multiplier += 0.05;
 		final_xp = base_xp * multiplier;
 		
-			timer = MAX_TIMER;
+		timer = MAX_TIMER;
+			
+		objSoulCounter.count--;
 			
 		scr_play_sound(sndCount);
 	}

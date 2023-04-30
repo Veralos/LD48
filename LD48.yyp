@@ -71,6 +71,7 @@
     {"id":{"name":"sprSatyrDead","path":"sprites/sprSatyrDead/sprSatyrDead.yy",},},
     {"id":{"name":"sprSatyrBow","path":"sprites/sprSatyrBow/sprSatyrBow.yy",},},
     {"id":{"name":"shadWhite","path":"shaders/shadWhite/shadWhite.yy",},},
+    {"id":{"name":"objSoulCounter","path":"objects/objSoulCounter/objSoulCounter.yy",},},
     {"id":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},},
     {"id":{"name":"sndBite","path":"sounds/sndBite/sndBite.yy",},},
     {"id":{"name":"objSoulCollector","path":"objects/objSoulCollector/objSoulCollector.yy",},},
