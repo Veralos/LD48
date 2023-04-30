@@ -15,4 +15,6 @@ if (iframe <= 0) {
 	}
 	
 	iframe = 120;
+	
+	scr_play_sound(sndDamage);
 }
