@@ -29,6 +29,7 @@
     {"name":"sprRock","order":17,"path":"sprites/sprRock/sprRock.yy",},
     {"name":"sprEntrance","order":10,"path":"sprites/sprEntrance/sprEntrance.yy",},
     {"name":"sprSkeletonAttack2","order":3,"path":"sprites/sprSkeletonAttack2/sprSkeletonAttack2.yy",},
+    {"name":"sprBackground","order":22,"path":"sprites/sprBackground/sprBackground.yy",},
     {"name":"objSatyrBow","order":17,"path":"objects/objSatyrBow/objSatyrBow.yy",},
     {"name":"objArrow","order":18,"path":"objects/objArrow/objArrow.yy",},
     {"name":"sprTile","order":9,"path":"sprites/sprTile/sprTile.yy",},

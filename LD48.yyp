@@ -47,6 +47,7 @@
     {"id":{"name":"sprRock","path":"sprites/sprRock/sprRock.yy",},},
     {"id":{"name":"sprEntrance","path":"sprites/sprEntrance/sprEntrance.yy",},},
     {"id":{"name":"sprSkeletonAttack2","path":"sprites/sprSkeletonAttack2/sprSkeletonAttack2.yy",},},
+    {"id":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},},
     {"id":{"name":"objSatyrBow","path":"objects/objSatyrBow/objSatyrBow.yy",},},
     {"id":{"name":"objArrow","path":"objects/objArrow/objArrow.yy",},},
     {"id":{"name":"sprTile","path":"sprites/sprTile/sprTile.yy",},},
