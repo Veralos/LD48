@@ -347,6 +347,10 @@
     {"name":"inst_1DF5AED9","path":"rooms/rmMain/rmMain.yy",},
     {"name":"inst_12C70EE9","path":"rooms/rmMain/rmMain.yy",},
     {"name":"inst_5E076162","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_3548B923","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_73557D28","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_4EA880B4","path":"rooms/rmMain/rmMain.yy",},
+    {"name":"inst_58683961","path":"rooms/rmMain/rmMain.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -693,6 +697,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E836862","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":688.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12C70EE9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSatyrBow","path":"objects/objSatyrBow/objSatyrBow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E076162","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objSatyrBow","path":"objects/objSatyrBow/objSatyrBow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":464.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3548B923","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objCyclops","path":"objects/objCyclops/objCyclops.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73557D28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objCyclops","path":"objects/objCyclops/objCyclops.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":464.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4EA880B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objCentaur","path":"objects/objCentaur/objCentaur.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":688.0,"y":432.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58683961","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objCentaur","path":"objects/objCentaur/objCentaur.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":48.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Dead","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_369660B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objPool","path":"objects/objPool/objPool.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":128.0,},
