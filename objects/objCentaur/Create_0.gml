@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-MAX_HP = 50;
+MAX_HP = 150;
 XP = 800;
 dead_sprite = sprCentaurDead;
 spd = 1.5;

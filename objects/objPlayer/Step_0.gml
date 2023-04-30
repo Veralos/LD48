@@ -6,10 +6,17 @@ var right_held = keyboard_check(ord("D"));
 var up_held = keyboard_check(ord("W"));
 var down_held = keyboard_check(ord("S"));
 
+var bite_pressed = mouse_check_button(mb_left);
 var run_pressed = mouse_check_button(mb_right);
 
 var move_x = right_held - left_held;
 var move_y = down_held - up_held;
+
+if (bite_stop > 0) {
+	bite_stop--;
+	move_x = 0;
+	move_y = 0;
+}
 
 if (move_x != 0) {
 	facing = sign(move_x);
@@ -61,12 +68,20 @@ if (!instance_exists(objSoulCollector)) {
 
 	var dir = point_direction(x, y, mouse_x, mouse_y);
 
-	var ldx = lengthdir_x(32, dir);
-	var ldy = lengthdir_y(32, dir);
-
-	if (mouse_check_button_pressed(mb_left)) {
-		var bite = instance_create_layer(x +ldx, y + ldy, layer, objBite2);
-		bite.damage = 10 + level;
+	if (rebite > 0) {
+		rebite--;
+	}
+	else if (bite_pressed) {
+		for (var i = -1; i < 2; i++) {
+			var ldx = lengthdir_x(32, dir + 15 * i);
+			var ldy = lengthdir_y(32, dir + 15 * i);
+			
+			var bite = instance_create_layer(x +ldx, y + ldy, layer, objBite2);
+			bite.damage = 10 + level;
+		}
+		
+		rebite = MAX_REBITE;
+		bite_stop = MAX_BITE_STOP;
 	}
 }
 

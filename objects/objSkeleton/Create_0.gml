@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-MAX_HP = 20;
+MAX_HP = 50;
 XP = 100;
 dead_sprite = sprSkeletonDead;
 
