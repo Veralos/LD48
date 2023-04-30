@@ -11,6 +11,10 @@ var run_pressed = mouse_check_button(mb_right);
 var move_x = right_held - left_held;
 var move_y = down_held - up_held;
 
+if (move_x != 0) {
+	facing = sign(move_x);
+}
+
 spd_x = 1.5 * move_x;
 spd_y = 1.5 * move_y;
 if (move_x != 0 && move_y != 0) {
@@ -24,6 +28,13 @@ if (stamina > 0 && run_pressed) {
 	stamina--;
 	
 	stamina_wait = MAX_STAMINA_WAIT;
+}
+
+var spd = point_distance(0, 0, spd_x, spd_y);
+image_index += spd / 16;
+
+if (spd == 0) {
+	image_index = 0;
 }
 
 if (stamina_wait > 0) {

@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 0;
+
+facing = 1;
+
 souls = ds_list_create();
 spin = 0;
 
