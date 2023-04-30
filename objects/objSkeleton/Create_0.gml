@@ -10,7 +10,10 @@ timer = 0;
 spd_x = 0;
 spd_y = 0;
 
-dead = false;
+MAX_HP = 20;
+hp = MAX_HP;
+
+flash = 0;
 
 var vx = camera_get_view_x(view_camera[0]);
 var vy = camera_get_view_y(view_camera[0]);

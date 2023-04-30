@@ -1,10 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (dead) {
-	exit;
-}
-
 image_index += 0.05;
 
 timer--;
@@ -25,3 +21,18 @@ if (!place_free(x, y + spd_y) || place_meeting(x, y + spd_y, objSkeleton)) {
 
 x += spd_x;
 y += spd_y;
+
+if (hp <= 0) {
+	instance_create_layer(x, y, layer_get_id("Effect"), objSlash);
+	
+	var dead = instance_create_layer(x, y, layer_get_id("Dead"), objDead);
+	var soul = instance_create_layer(x, y, layer, objSoul);
+	soul.sprite_index = sprite_index;
+	dead.sprite_index = sprSkeletonDead;
+	soul.body = dead;
+	soul.object = objSkeleton;
+	dead.start_x = start_x;
+	dead.start_y = start_y;
+
+	instance_destroy();
+}

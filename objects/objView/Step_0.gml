@@ -1,12 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var view_x = camera_get_view_x(view_camera[0]);
-var view_y = camera_get_view_y(view_camera[0]);
+view_x = objPlayer.x div 256 * 256;
+view_y = objPlayer.y div 240 * 240;
 
-camera_set_view_pos(view_camera[0], objPlayer.x div 256 * 256, objPlayer.y div 240 * 240);
+var offset_x = 0;
+var offset_y = 0;
+if (shake > 0) {
+	shake--;
+	offset_x = random_range(-2, 2);
+	offset_y = random_range(-2, 2);
+}
 
-if (view_x != camera_get_view_x(view_camera[0]) || view_y != camera_get_view_y(view_camera[0])) {
+camera_set_view_pos(view_camera[0], view_x + offset_x, view_y + offset_y);
+
+if (view_x != old_view_x || view_y != old_view_y) {
 	with (objSkeleton) {
 		x = start_x;
 		y = start_y;
@@ -20,10 +28,13 @@ if (view_x != camera_get_view_x(view_camera[0]) || view_y != camera_get_view_y(v
 	instance_deactivate_object(objTree);
 
 	instance_activate_region(
-		camera_get_view_x(view_camera[0]), 
-		camera_get_view_y(view_camera[0]), 
+		view_x, 
+		view_y, 
 		camera_get_view_width(view_camera[0]), 
 		camera_get_view_height(view_camera[0]),
 		true
 	);
 }
+
+old_view_x = view_x;
+old_view_y = view_y;

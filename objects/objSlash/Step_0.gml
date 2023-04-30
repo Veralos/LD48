@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-anim = 1;
-damage = true;
+timer--;
+if (timer <= 0) {
+	instance_destroy();
+}
+
+//visible = !visible;

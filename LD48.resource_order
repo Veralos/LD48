@@ -25,6 +25,7 @@
     {"name":"objSkeleton","order":5,"path":"objects/objSkeleton/objSkeleton.yy",},
     {"name":"objSoul","order":7,"path":"objects/objSoul/objSoul.yy",},
     {"name":"sprSkeletonDead","order":6,"path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},
+    {"name":"objSlash","order":9,"path":"objects/objSlash/objSlash.yy",},
     {"name":"sprBiteHalf","order":4,"path":"sprites/sprBiteHalf/sprBiteHalf.yy",},
     {"name":"objView","order":8,"path":"objects/objView/objView.yy",},
     {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
