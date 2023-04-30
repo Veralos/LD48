@@ -34,6 +34,10 @@ if (view_x != old_view_x || view_y != old_view_y) {
 		camera_get_view_height(view_camera[0]),
 		true
 	);
+	
+	with (objSkeleton) {
+		reset();
+	}
 }
 
 old_view_x = view_x;
