@@ -10,8 +10,8 @@ if (!ds_list_empty(objPlayer.souls)) {
 		ds_list_delete(objPlayer.souls, 0);
 		instance_destroy(soul);
 		
-		base_xp += 100;
-		multiplier += 0.1;
+		base_xp += soul.XP;
+		multiplier += 0.05;
 		final_xp = base_xp * multiplier;
 		
 			timer = MAX_TIMER;

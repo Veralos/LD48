@@ -15,7 +15,7 @@ if (shake > 0) {
 camera_set_view_pos(view_camera[0], view_x + offset_x, view_y + offset_y);
 
 if (view_x != old_view_x || view_y != old_view_y) {
-	with (objSkeleton) {
+	with (objEnemy) {
 		x = start_x;
 		y = start_y;
 	}
@@ -24,7 +24,7 @@ if (view_x != old_view_x || view_y != old_view_y) {
 		y = start_y;
 	}
 
-	instance_deactivate_object(objSkeleton);
+	instance_deactivate_object(objEnemy);
 	instance_deactivate_object(objTree);
 
 	instance_activate_region(
@@ -35,7 +35,7 @@ if (view_x != old_view_x || view_y != old_view_y) {
 		true
 	);
 	
-	with (objSkeleton) {
+	with (objEnemy) {
 		reset();
 	}
 }

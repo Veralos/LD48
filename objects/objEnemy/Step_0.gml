@@ -16,10 +16,10 @@ else {
 		timer = random_range(TIMER_MIN, TIMER_MAX);
 	}
 
-	if (!place_free(x + spd_x, y) || place_meeting(x + spd_x, y, objSkeleton)) {
+	if (!place_free(x + spd_x, y) || place_meeting(x + spd_x, y, objEnemy)) {
 		spd_x *= -1;
 	}
-	if (!place_free(x, y + spd_y) || place_meeting(x, y + spd_y, objSkeleton)) {
+	if (!place_free(x, y + spd_y) || place_meeting(x, y + spd_y, objEnemy)) {
 		spd_y *= -1;
 	}
 
@@ -36,6 +36,7 @@ if (hp <= 0) {
 	dead.sprite_index = dead_sprite;
 	soul.body = dead;
 	soul.object = object_index;
+	soul.XP = XP;
 	dead.start_x = start_x;
 	dead.start_y = start_y;
 

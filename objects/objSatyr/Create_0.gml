@@ -5,6 +5,7 @@
 event_inherited();
 
 MAX_HP = 30;
+XP = 500;
 dead_sprite = sprSatyrDead;
 spd = 1;
 

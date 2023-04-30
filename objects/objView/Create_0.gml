@@ -10,12 +10,12 @@ shake = 0;
 
 set_spawn = true;
 
-with (objSkeleton) {
+with (objEnemy) {
 	start_x = x;
 	start_y = y;
 }
 
-instance_deactivate_object(objSkeleton);
+instance_deactivate_object(objEnemy);
 instance_deactivate_object(objTree);
 
 instance_activate_region(

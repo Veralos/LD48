@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "objSkeleton",
-    "path": "objects/objSkeleton/objSkeleton.yy",
+    "name": "objEnemy",
+    "path": "objects/objEnemy/objEnemy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
