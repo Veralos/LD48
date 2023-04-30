@@ -9,4 +9,9 @@ XP = 500;
 dead_sprite = sprSatyrDead;
 spd = 1;
 
+function perform_attack() {
+	spd_x = lengthdir_x(3, dir);
+	spd_y = lengthdir_y(3, dir);
+}
+
 reset();

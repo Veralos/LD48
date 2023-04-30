@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprSkeletonDead",
-  "bbox_bottom": 13,
-  "bbox_left": 2,
-  "bbox_right": 14,
-  "bbox_top": 3,
+  "name": "sprSkeletonAttack2",
+  "bbox_bottom": 15,
+  "bbox_left": 3,
+  "bbox_right": 15,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprSkeletonDead",
+    "name": "sprSkeletonAttack2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23f13c9b-9b7d-452d-921f-addd6198e7ff","path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},},},"Disabled":false,"id":"cc77e959-f36a-449e-aa88-1a53f75098bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23f13c9b-9b7d-452d-921f-addd6198e7ff","path":"sprites/sprSkeletonAttack2/sprSkeletonAttack2.yy",},},},"Disabled":false,"id":"50e186a6-54ce-4fa6-a1dd-cc7d940ed7bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

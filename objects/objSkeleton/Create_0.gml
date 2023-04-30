@@ -8,4 +8,9 @@ MAX_HP = 20;
 XP = 100;
 dead_sprite = sprSkeletonDead;
 
+function perform_attack() {
+	spd_x = lengthdir_x(3, dir);
+	spd_y = lengthdir_y(3, dir);
+}
+
 reset();

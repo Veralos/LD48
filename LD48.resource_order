@@ -15,6 +15,7 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"skeleton","order":12,"path":"folders/Sprites/skeleton.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"objSatyr","order":10,"path":"objects/objSatyr/objSatyr.yy",},
@@ -24,6 +25,7 @@
     {"name":"objBite2","order":4,"path":"objects/objBite2/objBite2.yy",},
     {"name":"sprPlayer","order":1,"path":"sprites/sprPlayer/sprPlayer.yy",},
     {"name":"sprEntrance","order":10,"path":"sprites/sprEntrance/sprEntrance.yy",},
+    {"name":"sprSkeletonAttack2","order":3,"path":"sprites/sprSkeletonAttack2/sprSkeletonAttack2.yy",},
     {"name":"sprTile","order":9,"path":"sprites/sprTile/sprTile.yy",},
     {"name":"sprPool","order":11,"path":"sprites/sprPool/sprPool.yy",},
     {"name":"sprBite2","order":3,"path":"sprites/sprBite2/sprBite2.yy",},
@@ -34,7 +36,8 @@
     {"name":"sprSatyrDead","order":7,"path":"sprites/sprSatyrDead/sprSatyrDead.yy",},
     {"name":"objSkeleton","order":15,"path":"objects/objSkeleton/objSkeleton.yy",},
     {"name":"objSoulCollector","order":13,"path":"objects/objSoulCollector/objSoulCollector.yy",},
-    {"name":"sprSkeletonDead","order":6,"path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},
+    {"name":"sprSkeletonDead","order":1,"path":"sprites/sprSkeletonDead/sprSkeletonDead.yy",},
+    {"name":"sprSkeletonAttack","order":2,"path":"sprites/sprSkeletonAttack/sprSkeletonAttack.yy",},
     {"name":"objSlash","order":9,"path":"objects/objSlash/objSlash.yy",},
     {"name":"sprBiteHalf","order":4,"path":"sprites/sprBiteHalf/sprBiteHalf.yy",},
     {"name":"objView","order":8,"path":"objects/objView/objView.yy",},
@@ -43,7 +46,6 @@
     {"name":"objBite","order":3,"path":"objects/objBite/objBite.yy",},
     {"name":"objHud","order":16,"path":"objects/objHud/objHud.yy",},
     {"name":"objInit","order":1,"path":"objects/objInit/objInit.yy",},
-    {"name":"sprSkeleton","order":5,"path":"sprites/sprSkeleton/sprSkeleton.yy",},
     {"name":"objDamageText","order":14,"path":"objects/objDamageText/objDamageText.yy",},
   ],
 }
