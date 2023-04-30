@@ -11,7 +11,7 @@ if (!ds_list_empty(objPlayer.souls)) {
 		instance_destroy(soul);
 		
 		base_xp += soul.XP;
-		multiplier += 0.05;
+		multiplier += 0.03;
 		final_xp = base_xp * multiplier;
 		
 		timer = MAX_TIMER;
@@ -23,7 +23,7 @@ if (!ds_list_empty(objPlayer.souls)) {
 }
 else {
 	if (final_xp > 0) {
-		var add = min(final_xp, 20);
+		var add = min(final_xp, 50);
 		objPlayer.xp += add;
 		final_xp -= add;
 		
@@ -38,6 +38,7 @@ else {
 		}
 	}
 	else {
+		done = true;
 		if (mouse_check_button_pressed(mb_left)) {
 			instance_destroy();
 		}

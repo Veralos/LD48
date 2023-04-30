@@ -7,3 +7,5 @@ final_xp = 0;
 
 MAX_TIMER = 10;
 timer = MAX_TIMER;
+
+done = false;
